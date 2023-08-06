@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brochure</title>
+    <link rel="icon" href="Icono.png">
+    <link rel="stylesheet" href="CSS/Base.css">
+    <link rel="stylesheet" href="CSS/Brochure.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="JS/Creditos.js" type="text/javascript"></script>
+</head>
+<body>
+    <nav class="Barra">
+        <ul>
+            <li><a href="#" class="Logo"  id="Br">
+                <img src="Icono.png" alt="" id="img">
+                <span class="nav-item" id="nameApp">Breathe</span>
+            </a></li>
+            <li><a href="seleccion.php" id="Br">
+                <i class="fas fa-home" id="icon"></i>
+                <span class="nav-item">Seleccion</span>
+            </a></li>
+            <li><a href="mapa.php" id="Br">
+                    <i class="fas fa-map" id="icon"></i>
+                    <span class="nav-item">Mapa</span>
+            </a></li>
+            <li><a href="chat.php" id="Br">
+                    <i class="fas fa-comments" id="icon"></i>
+                    <span class="nav-item">Chat</span>
+            </a></li>
+            <li><a href="estadistica.php" id="Br">
+                    <i class="fas fa-chart-bar" id="icon"></i>
+                    <span class="nav-item">Estadisticas</span>
+            </a></li>
+            <li><a href="Perfil.php" id="Br">
+                    <i class="fas fa-user" id="icon"></i>
+                    <span class="nav-item">Perfil</span>
+            </a></li>
+                <li><a href="Login.php" class="Logout" id="Br">
+                        <i class="fas fa-sign-out-alt" id="icon"></i>
+                        <span class="nav-item">Cerrar Sesión</span>
+                </a></li>
+        </ul>
+    </nav> 
+<div id="solapaDiv"></div>
+    <div id="creditosDiv">
+      <h1 id="Cr">CREDITOS</h1>    
+      <div id="creditos">
+      <center>
+        <div  class="div-bo">
+			<div class="marco"> 
+				<img src="IMGS/fotoICGC.jpg" class="fotos"><br>
+					<div class="min-marco">
+						<h2 id="Cr">Ian Christopher Giraldo Chavarria</h2>
+						¿Como me considero?, considero que soy un estudiante diferente a los demas, una persona servicial, comprometida a esforzarse y a lograr ser el mejor en cada reto que me proponga en el dia a dia
+					</div>
+			</div>
+			<div  class="marco"> 
+				<img src="IMGS/fotoJARF.jpg" class="fotos"><br>
+					<div class="min-marco">
+						<h2 id="Cr">Jorge Andres Ruiz Florez</h2>
+						Soy un estudiante responsable, respetuoso, caballero, un programador nivel aprendiz medio, nacionalidad Peruana y Colombiana, actual 
+						estudiante de la institucion Francisco Antonio Zea, aprendio a crear su primera pagina a los 12 años de edad y 
+						desde entonces sigo mi camino como programador.	   
+					</div>
+			</div>
+		</div>
+      </center>
+    </div> 
+      <center>
+        <button class="botonEmergente" onclick="cerrarCreditos();">Cerrar</button>
+    </div>
+      </center>
+      <h1>Acerca De</h1>
+    <div class="diva">
+        <div  id="info">
+            <DIV id="text">
+               <center>
+                <h2>Cual es el problema y como pensamos solucionarlo?</h2>
+                <p>No hay que ser un experto para darse cuenta que la poblacion de hoy en dia padece 
+                    de mucho estres, lo que nuestra aplicacion pretende es relajar a los usuario
+                </p>
+               </center> 
+            </DIV>
+        </div>
+        <div id="info">
+
+            <div id="yoga">
+                <center>
+                    <h2>¿Que pensamos lograr? </h2>
+                    <p>- Hallar la solucion al problema presentado <br>
+                        - Crear prototipos para formular mejor la aplicacion <br>
+                        - Codificar la aplicacion <br>
+                        - Presentarla a un publico y tomar sus aportes de manera asertiva y positiva <br>
+                        - Realizar los cambios necesarios para una mejor aplicacion <br>
+                        - Cumplir con nuestro objetivo a traves de la aplicacion <br>
+                    </p>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div id="desc_problema">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-2" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                 <strong>LOGIN</strong>
+                <img src="IMGS/BRIMGS/login.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <strong>REGISTRO:</strong>
+                <img src="IMGS/BRIMGS/registro.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-4" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <strong>FORMULARIO:</strong>
+                <img src="IMGS/BRIMGS/formulario.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-5" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <strong>MAPA: </strong>
+                <img src="IMGS/BRIMGS/mapa.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-6" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <strong>SELECCIÓN: </strong>
+                <img src="IMGS/BRIMGS/seleccion.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-7" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <strong>OPINIONES: </strong>
+                <img src="IMGS/BRIMGS/calificaciones.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-8" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <strong>PERFIL:</strong>
+                <img src="IMGS/BRIMGS/perfil.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-9" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <strong>Brochure:</strong>
+                <img src="IMGS/BRIMGS/brochure.png">
+            </div>
+             <input class="slide-open" type="radio" id="slide-1" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <strong> CARGA:</strong>
+                <img src="IMGS/BRIMGS/carga.png">
+            </div>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-9" class="slide-control prev control-1">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-4" class="slide-control next control-3">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-5" class="slide-control next control-4">›</label>
+            <label for="slide-3" class="slide-control prev control-4">‹</label>
+            <label for="slide-6" class="slide-control next control-5">›</label>
+            <label for="slide-4" class="slide-control prev control-5">‹</label>
+            <label for="slide-7" class="slide-control next control-6">›</label>
+            <label for="slide-5" class="slide-control prev control-6">‹</label>
+            <label for="slide-8" class="slide-control next control-7">›</label>
+            <label for="slide-6" class="slide-control prev control-7">‹</label>
+            <label for="slide-9" class="slide-control next control-8">›</label>
+            <label for="slide-7" class="slide-control prev control-8">‹</label>
+            <label for="slide-8" class="slide-control prev control-9">‹</label>
+            <label for="slide-1" class="slide-control next control-9">›</label>
+
+            <ol class="slide-indicador">
+
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+                 <li>
+                    <label for="slide-4" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-5" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-6" class="slide-circulo">•</label>
+                </li>
+                 <li>
+                    <label for="slide-7" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-8" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-9" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div>
+        <button class="boton" id="tt" onclick="abrirCreditos();">Creditos</button>
+    </div>
+    <!-- <section>
+        <nav class="br">
+            <ul>
+                <li><a href="Perfil.html">Volver</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </section> -->
+</body>
+</html>

@@ -1,0 +1,235 @@
+@font-face {
+	font-family: GrandHotel;
+	src: url(../Fonts/GrandHotel-Regular.ttf);
+}
+
+@font-face {
+	font-family: Lato;
+	src: url(../Fonts/Lato-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+* {
+    font-family: 'Asap', sans-serif;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(65, 99, 88);
+}
+h1,h2,h3{
+    color: white !important;
+}
+#cargaFondoCuadradoTop {
+	width: 100vw;
+	height: 35vh;
+	background-color: rgba(142, 219, 176, 1);
+}
+
+#cargaFondoCirculoTop {
+	margin-top: -200px;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(142, 219, 176, 1);
+	border-radius: 100%;
+}
+
+#cargaLetras {
+	position: absolute;
+	font-family: "GrandHotel";
+	color: rgba(233, 245, 238, 1.0);
+	font-size: 125px;
+	margin-top: 180px;
+	margin-left: -10px;
+	width: 100%;
+	text-align: center;
+}
+/* Barra menu */
+.Barra
+{
+    z-index: 100;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+nav
+{
+    position: fixed;
+    top: 5%;
+    bottom: 0;
+    height: 10%;
+    left: 1%;
+    background: rgb(38, 150, 115);
+    width: 5%;
+    overflow: hidden;
+    /* transition: width 0.2s linear; */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.501) ;
+	border-radius: 30%;
+	transition: all 0.3s linear;
+    /* box-shadow: inset 1px 1px 3px 3px  rgb(255, 255, 255); */
+    border:1px solid rgb(255, 255, 255) !important;
+    border: 2px solid rgba(84, 84, 84) !important;
+
+}
+.Logo
+{
+    text-align: center;
+    display: flex !important;
+    transition: all 0.5s ease;
+	/* margin: 10px 0 0 10px; */
+    margin-left: -160%;
+    margin-top: -75%;
+
+}
+.Logo img
+{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+
+}
+.Logo span
+{
+    font-weight: bold;
+    padding: 0 0 0 15px;
+	/* padding-left: 15px; */
+    top: -1%;
+    left: -1%;
+    font-size: 40px;
+    /* text-transform: uppercase; */
+}
+#Br{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+}
+#nameApp{
+    font-family: "GrandHotel";
+}
+.fas{
+	position: relative;
+	width: 20%;
+	height: 40px;
+	top: 10px;
+	font-size: 20px;
+}
+.nav-item{
+	position: relative;
+	top: 8px;
+	margin-left: 0;
+}
+#Br:hover {
+    background:  #27a9d1;
+	/* background: rgb(131, 131, 131); */
+    text-indent: 5px;
+}
+
+nav:hover{
+    left: 0.2%;
+    top: 1%;
+	width: 15%;
+    background: #2c91b0;
+	box-shadow: 0 20px 200px rgb(0, 0, 0);
+    border: 2px solid rgba(84, 84, 84) !important;
+	border-radius: 0px 15px 15px 0px;
+    height: 98%;
+}
+.Barra:hover ul{
+    margin-left: -30%;
+}
+.Barra:hover li{
+    top: 100px;
+}
+
+.Barra:hover .Logo{
+    margin-left: -1%;
+    margin-top: -8%;
+}
+.Barra:hover #icon{
+    margin-left: 10%;
+}
+.Barra:hover #img{
+    margin-left: 8%;
+    /* margin-top: 3%; */
+}
+.Barra:hover .Logout{
+	position: absolute !important;
+    bottom: 0;
+}
+
+menu {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+#VerPerfil {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    background-color: #27a9d1;
+    right: 0;
+    top: 0;
+    width: 400px;
+    padding: 10px;
+    height: 100vh;
+    border-radius: 25px 0 0 25px;
+}
+
+#VerPerfil img {
+    width: 250px;
+}
+
+
+#VerPerfil a, button{
+    display: table;
+    width: 100%;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+#VerPerfil button {
+    color: black;
+    letter-spacing: normal;
+    word-spacing: normal;
+    /* line-height: normal; */
+    display: inline-block;
+    text-align: left;
+    align-items: flex-start;
+    box-sizing: none;
+    background-color: transparent;
+    border: none;
+    border-width: 0;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -38px;
+}
+
+.Foto > img{
+    border-radius: 100%;
+}

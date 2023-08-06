@@ -1,0 +1,101 @@
+/* Barra menu */
+.Barra
+{
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none; 
+   text-decoration: none;
+   box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin-left: -35%;
+}
+nav
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: rgb(255, 0, 0);
+    width: 5%;
+    overflow: hidden;
+    /* transition: width 0.2s linear; */
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.28);
+	border-radius: 0px;
+	transition: all 0.1s linear;
+
+}
+.Logo
+{
+    text-align: center;
+    display: flex !important;
+    transition: all 0.5s ease;
+	margin: 10px 0 0 10px;
+    margin-left: -20%;
+}
+.Logo img
+{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+
+}
+.Logo span
+{
+    font-weight: bold;
+    padding: 15px;
+	padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#Br{
+    position: relative;
+    color: rgba(0, 255, 110, 0.6);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+}
+.fas{
+	position: relative;
+	width: 20%;
+	height: 40px;
+	top: 14px;
+	font-size: 20px;
+}
+.nav-item{
+	position: relative;
+	top: 12px;
+	margin-left: 10px;
+}
+.Logout{
+	position: absolute !important;
+    bottom: 0;
+}
+#Br:hover {
+	background: beige;	
+}
+nav:hover{
+	width: 15%;
+    background: blue;
+}
+.Barra:hover ul{
+    margin-left: -25%;
+}
+.Barra:hover .Logo{
+    margin-left: 0%;
+}
+.Barra:hover #icon{
+    margin-left: 10%;
+}
+.Barra:hover #img{
+    margin-left: 8%;
+}
+
+#VerPerfil {
+    display: none;
+}

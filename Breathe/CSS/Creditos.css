@@ -1,0 +1,67 @@
+/* Css Creditos */
+h1, h2 {
+
+    text-align: center;
+/*	color: rgb(255, 255, 255);*/
+    color: rgba(71, 82, 94, 1.0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*	-webkit-text-stroke: 0.03em #000000;*/
+    font-weight: 600;
+}
+
+
+
+
+/* Css Creditos */
+
+.div-bo
+{
+    text-align: center;
+    display: flex;
+	width: fit-content;
+    width: 100%;
+    margin-left: 6%;
+}
+::selection{
+	background-color: #00ffff;
+	color:#0026ff;
+}
+.marco
+{
+    padding: 1%;
+    width: 40%;
+	background-color: rgba(142, 219, 175, 0.6);
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.501) ;
+    /* flex-direction: column; */
+    display: inline;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    flex-direction:column;
+}
+.fotos
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+}
+.min-marco
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	/* backdrop-filter: blur(10PX); APLICA UN FONDO SEMITRANSPARENTE*/
+	border-radius: 15px;
+
+}
+
+.sub-marco>i
+{
+	width: 50px;
+	box-sizing: border-box;
+	/* margin-left: 2%; */
+	font-size: 19px;
+}
