@@ -1,0 +1,379 @@
+/* Css brochure */
+body{
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.diva
+{
+    display: flex !important;
+	flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    /* background-color: aqua; */
+}
+#info
+{
+    height: 255px;
+    width: 80%;
+    background-color: rgba(142, 219, 175, 0.6);
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.501) ;
+    /* flex-direction: column; */
+    display: inline;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 20%;
+}
+
+#text
+{
+    width: 90%;
+   padding: 5%;
+}
+#parque
+{
+    border-radius: 30px;
+    height: 250px;
+    margin-top: -17%;
+    margin-left: 60%;
+}
+#tx
+{
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#yoga
+{
+    height: 250px;
+    /* margin-left: 50%; */
+}
+
+h1, h2 {
+
+    text-align: center;
+/*	color: rgb(255, 255, 255);*/
+    color: rgba(71, 82, 94, 1.0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*	-webkit-text-stroke: 0.03em #000000;*/
+    font-weight: 600;
+}
+#Cr{    color: rgba(71, 82, 94, 1.0) !important;
+
+}
+p{
+    font-size: 110%;
+    padding: 5px;
+}
+#INF{
+    align-items: center;
+    margin-top: 1%;
+}
+.br
+{
+    display: block;
+	margin: auto;
+	padding: 0px;
+	background-color: rgba(142, 219, 175, 0.6);
+	/*background-color:  #808080;*/
+	width: 13%;
+	height: 5%;
+	border-radius: 40px;
+	border: 5px solid rgba(142, 219, 175, 0.445);
+}
+
+/* Css Creditos */
+
+.div-bo
+{
+    text-align: center;
+    display: flex;
+	width: fit-content;
+    width: 100%;
+    margin-left: 6%;
+}
+::selection{
+	background-color: #00ffff;
+	color:#0026ff;
+}
+.marco
+{
+    padding: 1%;
+    width: 40%;
+	background-color: rgba(142, 219, 175, 0.6);
+    border-radius: 8%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.501) ;
+    /* flex-direction: column; */
+    display: inline;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* margin-left: 2%; */
+    margin-right: 2%;
+    flex-direction:column;
+}
+.fotos
+{
+    width: 105%;
+    border-radius: 8% 8% 0 0;
+    margin-left: -2.5%;
+    margin-top: -2%;
+}
+.min-marco
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	/* backdrop-filter: blur(10PX); APLICA UN FONDO SEMITRANSPARENTE*/
+	border-radius: 15px;
+
+}
+
+.sub-marco>i
+{
+	width: 50px;
+	box-sizing: border-box;
+	/* margin-left: 2%; */
+	font-size: 19px;
+}
+/* aca configuraremos la ventana de creditos  */
+#creditosDiv
+ {
+    background-color: rgb(189, 221, 204);;
+    border: 4px solid rgb(78, 226, 180);
+    border-radius: 10%;
+    box-shadow: 0 0 23px -2px rgb(37, 204, 154), inset 5px 5px 56px 4px rgb(50, 177, 137);
+    left: 8%;
+    padding: 1% 2%;
+    position: fixed;
+    top: 0%;
+    visibility: hidden;
+    width: 50%;
+    height: 90%;
+    z-index: 200;
+    margin-left: 15%;
+
+  }
+
+  #creditosDiv h1{
+    -webkit-text-stroke: 1px #000;
+    color: rgba(71, 82, 94, 1.0);
+    font-size: 46px;
+    text-transform: uppercase;
+  }
+
+
+  #creditosDiv hr {
+    border: 1px solid black;
+  }
+
+  #solapaDiv {
+    background-color: rgba(47, 47, 47, 0.39);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+  }
+  .boton, .botonEmergente {
+    -webkit-text-stroke: 1px rgba(71, 82, 94, 1.0);
+    background: linear-gradient(to bottom, rgba(142, 219, 175, 0.6) 5%, rgb(0, 255, 208) 100%);
+    border-radius: 50px;
+    box-shadow: inset 0 1px 3px 0 rgb(12, 150, 109);
+    border: 5px solid rgba(142, 219, 175, 0.445);
+    color: rgba(71, 82, 94, 1.0);
+    font-size: 1em;
+    padding: 17px 51px;
+    text-decoration: none;
+    /* text-shadow: -2px -2px 1px rgb(255, 255, 255), 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; */
+    text-transform: uppercase;
+
+  }
+  .boton:hover{
+    background: rgb(131, 131, 131);	
+
+  }
+#tt{
+    margin-left: 43%;
+    margin-top: 0.5%;
+}
+
+.botonEmergente {
+    /* margin-top: 2%; */
+    margin-bottom: 10%;
+}
+
+/* Abremos configurado la ventana y los botones emergentes */
+
+/*css slyde */
+#back{
+    text-decoration: none;
+    color:rgba(71, 82, 94, 1.0);
+    float:right;
+    position: auto;
+    bottom:50px;
+    left:220px;
+    width:100px;
+    height:25px;
+    background-color:#3FAAC6;
+    border-radius:20px;
+    border: groove;
+    border-color:#283747;
+    padding:10px;
+    font-size: 20px;
+    margin :12px;
+ }
+ 
+#desc_problema{
+    padding: 20px;
+    font-size: 24px;
+    color: rgba(71, 82, 94, 1.0);
+    border-radius: 5%;
+    background: rgba(142, 219, 175, 0.6);
+    border: 5px solid rgba(142, 219, 175, 0.445);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.501) ;
+    margin:auto;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    margin-top: -38.5%;
+    margin-left: 55%;
+
+ }
+
+.slide {
+        position: relative;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    /*  margin-top: 26px;*/
+}
+
+.slide-inner {
+     position: relative;
+     overflow: hidden;
+     width: 100%;
+     height: calc( 400px + 3em);
+     }
+
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 100;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.slide-item img {
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    height: 30%;
+    max-width: 45%;
+    border-radius: 17%;
+}
+
+.slide-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+            .slide-control.prev {
+                left: 4%;
+            }
+
+            .slide-control.next {
+                right: 2%;
+            }
+
+            .slide-control:hover {
+                background: rgba(0, 0, 0, 0.28);
+                color: #aaaaaa;
+            }
+
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3,
+#slide-4:checked ~ .control-4,
+#slide-5:checked ~ .control-5,
+#slide-6:checked ~ .control-6,
+#slide-7:checked ~ .control-7,
+#slide-8:checked ~ .control-8,
+#slide-9:checked ~ .control-9 {display: block;}
+
+.slide-indicador {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 30px;
+    text-align: center;
+    z-index: 10;
+}
+
+            .slide-indicador li {
+                display: inline-block;
+                margin: 0 7px;
+            }
+
+            .slide-circulo {
+                color: #828282;
+                cursor: pointer;
+                display: block;
+                font-size: 50px;
+            }
+
+.slide-circulo:hover {
+    background: 30px;
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1 ~ .slide-indicador  li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .control-2 ~ .slide-indicador  li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .control-3 ~ .slide-indicador  li:nth-child(3) .slide-circulo,
+#slide-4:checked ~ .control-4 ~ .slide-indicador  li:nth-child(4) .slide-circulo,
+#slide-5:checked ~ .control-5 ~ .slide-indicador  li:nth-child(5) .slide-circulo,
+#slide-6:checked ~ .control-6 ~ .slide-indicador  li:nth-child(6) .slide-circulo,
+#slide-7:checked ~ .control-7 ~ .slide-indicador  li:nth-child(7) .slide-circulo,
+#slide-8:checked ~ .control-8 ~ .slide-indicador  li:nth-child(8) .slide-circulo,
+#slide-9:checked ~ .control-9 ~ .slide-indicador  li:nth-child(9) .slide-circulo{color: #428bca;}
+#titulo {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: fantasy;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
