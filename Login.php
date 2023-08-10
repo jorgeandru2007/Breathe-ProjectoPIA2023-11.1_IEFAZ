@@ -20,7 +20,7 @@
 	</div>
 	<big>
 		<div id="login">
-			<h2>Iniciar Sesión BRRRR</h2>
+			<h2>Iniciar Sesión</h2>
 			<center>
 				<form name="registroUsuario" id="registroUsuario" method="post">
 					<table>
