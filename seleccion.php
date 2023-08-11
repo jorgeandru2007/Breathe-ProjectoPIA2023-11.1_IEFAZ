@@ -56,14 +56,21 @@
 		    /* list-style-type: disc; */
 		    position: relative;
 			text-align: right;
-
 		    bottom: 0;
 		}
 
-		.hi-slide > ul > li > span > hgroup > i {
+		.hi-slide > ul > li > span > hgroup > p{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			margin: 0;
+		}
+
+		.hi-slide > ul > li > span > hgroup > p > i {
 			display: list-item;
 		    text-align: -webkit-match-parent;
 			margin-right: 30px;
+			bottom: 0;
 		}
 /* 
 		.hi-slide > ul > li > span > hgroup > i::before {
@@ -211,39 +218,49 @@
 			<ul>
 				<li id="li1"><span>
 					<hgroup>
-						<?php
-							echo $CentroComercial;
-						?>
+						<p>
+							<?php
+								echo $CentroComercial;
+							?>
+						</p>
 					</hgroup><br><b>Templos</b></span><img src="IMGS/Seleccion/slider/1.png" alt="" id="S1" onclick="sl1();">
 				</li>
 
 				<li id="li2"><span>
 					<hgroup>
-						<?php
-							echo $Spa;
-						?>
+						<p>
+							<?php
+								echo $Spa;
+							?>
+						</p>
 					</hgroup><br><b>Spa</b></span><img src="IMGS/Seleccion/slider/2.png" alt="" id="S2" onclick="sl2();">
 				</li>
 
 				<li id="li3"><span><hgroup>
-						<?php
-							echo $Piscina;
-						?>
+						<p>
+							<?php
+								echo $Piscina;
+							?>
+						</p>
 					</hgroup><br><b>Piscinas</b></span><img src="IMGS/Seleccion/slider/3.png" alt="" id="S3" onclick="sl3();">
 				</li>
 				
 				<li id="li4"><span><hgroup>
-						<?php
-							echo $Parque;
-						?>
+						<p>
+							<?php
+								echo $Parque;
+							?>
+						</p>
 					</hgroup><br><b>Parques</b></span><img src="IMGS/Seleccion/slider/4.png" alt="" id="S4" onclick="sl4();">
 				</li>
 				
 				<li id="li5"><span>
 					<hgroup>
-						<?php
-							echo $Ejercicio;
-						?>
+						<p>
+							<?php
+								echo $Ejercicio;
+							?>
+						</p>
 					</hgroup><br><b>Ejercitarse</b></span><img src="IMGS/Seleccion/slider/5.png" alt="" id="S5" onclick="sl5();">
 				</li>
 			</ul>
