@@ -11,6 +11,9 @@
 		<link rel="stylesheet" href="CSS/Base.css">
 		<link rel="stylesheet" href="CSS/Registro.css">
 		<!-- <script src="JS/Registro.js" type="text/javascript"></script> -->
+		<!-- FONT -->
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@300&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<div id="cargaFondoCuadradoTop"></div>

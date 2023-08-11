@@ -1,6 +1,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@300&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
 <nav class="Barra">
     <ul>

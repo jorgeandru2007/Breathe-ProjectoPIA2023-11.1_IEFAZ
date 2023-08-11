@@ -133,13 +133,13 @@ button {
 
 #CreacionDeCuenta {
 	margin-left: 15px;
-	color: rgba(71, 82, 94, .5);
+	color: rgba(34, 37, 41, 0.877);
 }
 
 #BtnLoginSpan {
 	margin: 5px;
 	text-decoration: none;
-	color: rgba(71, 82, 94, 1.0);
+	color: rgba(34, 37, 41, 0.877);
 }
 
 /*
@@ -159,4 +159,9 @@ big {
 
 #cargaFondoCuadradoTop {
 	height: 0vh;
+}
+
+
+h2 {
+	font-family: 'Playfair Display', serif;
 }

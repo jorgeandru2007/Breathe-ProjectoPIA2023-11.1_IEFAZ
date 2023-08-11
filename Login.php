@@ -10,6 +10,9 @@
 	<link rel="icon" href="Icono.png">
     <link rel="stylesheet" href="CSS/Base.css">
     <link rel="stylesheet" href="CSS/Login.css">
+	<!-- FONT -->
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@300&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<div id="cargaFondoCuadradoTop"></div>

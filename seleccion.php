@@ -49,6 +49,8 @@
 		.hi-slide > ul > li > span > b {
 			font-size: 80px;
 			margin-left:10px;
+			font-family: 'Playfair Display', serif;
+			
 		}
 
 		.hi-slide > ul > li > span > hgroup {
@@ -71,6 +73,7 @@
 		    text-align: -webkit-match-parent;
 			margin-right: 30px;
 			bottom: 0;
+			font-style: normal;
 		}
 /* 
 		.hi-slide > ul > li > span > hgroup > i::before {

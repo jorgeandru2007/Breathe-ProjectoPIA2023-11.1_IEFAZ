@@ -11,8 +11,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
 
+
+/* Fuentes rama: */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+/*
+CSS RULES FAMILY
+titles
+font-family: 'Playfair Display', serif;
+subtitles
+font-family: 'Lora', serif;
+body
+font-family: 'Noto Serif', serif;
+*/
+
 * {
-    font-family: 'Asap', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 html {
@@ -104,6 +118,7 @@ nav
 }
 .Logo span
 {
+    font-family: 'Lora', serif;
     font-weight: bold;
     padding: 0 0 0 15px;
 	/* padding-left: 15px; */
@@ -135,6 +150,7 @@ nav
 	position: relative;
 	top: 8px;
 	margin-left: 0;
+    font-weight: bold;
 }
 #Br:hover {
     background:  #27a9d1;
