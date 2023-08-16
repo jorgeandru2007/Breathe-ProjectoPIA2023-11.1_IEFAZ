@@ -219,15 +219,15 @@
 			<div class="hi-prev"></div>
 			<div class="hi-next"></div>
 			<ul>
-				<li id="li1"><span>
+				<!-- <li id="li1"><span>
 					<hgroup>
 						<p>
 							<?php
-								echo $CentroComercial;
+								// echo $CentroComercial;
 							?>
 						</p>
 					</hgroup><br><b>Templos</b></span><img src="IMGS/Seleccion/slider/1.png" alt="" id="S1" onclick="sl1();">
-				</li>
+				</li> -->
 
 				<li id="li2"><span>
 					<hgroup>
@@ -257,15 +257,15 @@
 					</hgroup><br><b>Parques</b></span><img src="IMGS/Seleccion/slider/4.png" alt="" id="S4" onclick="sl4();">
 				</li>
 				
-				<li id="li5"><span>
+				<!-- <li id="li5"><span>
 					<hgroup>
 						<p>
 							<?php
-								echo $Ejercicio;
+								// echo $Ejercicio;
 							?>
 						</p>
 					</hgroup><br><b>Ejercitarse</b></span><img src="IMGS/Seleccion/slider/5.png" alt="" id="S5" onclick="sl5();">
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
@@ -294,11 +294,11 @@
 	        // Especifica la posición y el estado de cada imagen.
 	        var states = [
 	            // { $zIndex: 1, width: 120, height: 150, top: 69, left: 134, $opacity: 0.2 },
-	            { $zIndex: 1, width: 160, height: 90, top: 59, left: 100, $opacity: 0 },
+	            // { $zIndex: 1, width: 160, height: 90, top: 59, left: 100, $opacity: 0 },
 	            { $zIndex: 2, width: 960, height: 540, top: 35, left: 100, $opacity: 0.7 },
 	            { $zIndex: 3, width: 1160, height: 630, top: 0, left: 100, $opacity: 1 },
 	            { $zIndex: 1, width: 960, height: 540, top: 35, left: 1435, $opacity: 0.7 },
-	            { $zIndex: 0, width: 160, height: 90, top: 59, left: 620, $opacity: 0 },
+	            // { $zIndex: 0, width: 160, height: 90, top: 59, left: 620, $opacity: 0 },
 	            // { $zIndex: 1, width: 120, height: 150, top: 69, left: 500, $opacity: 0.2 }
 	        ];
 

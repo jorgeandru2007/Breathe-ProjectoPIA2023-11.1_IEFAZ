@@ -9,7 +9,7 @@
 <nav class="Barra">
     <ul>
         <li><a href="#" class="Logo"  id="Br">
-            <img src="IMGS/YoYChaqueta.png" alt="" id="img">
+            <img src="IMGS/perfiles/basicToken.png" alt="" id="img">
             <!-- <span class="nav-item" id="nameApp">Breathe</span> -->
         </a></li>
         <li id="nombreUser">
@@ -39,10 +39,10 @@
                 <i class="fas fa-book" id="icon"></i>
                 <span class="nav-item">Acerca De</span>
         </a></li>
-        <!-- <li><a href="#" id="Br" onclick="GenerarPerfil();">
-                <i class="fas fa-user" id="icon"></i>
-                <span class="nav-item">Perfil</span>
-        </a></li> -->
+        <li><a href="configuracion.php" id="Br" style="text-indent: 15px;">
+                <i class="fas fa-bars"></i>
+                <span class="nav-item">Configuracion</span>
+        </a></li>
         <li><a href="?cerrar_sesion=true" class="Logout" id="Br">
                 <i class="fas fa-sign-out-alt" id="icon"></i>
                 <span class="nav-item">Cerrar Sesion</span>
